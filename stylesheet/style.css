@@ -524,7 +524,7 @@ footer {
           position: fixed;
           gap: 1.5rem;
           margin-top: 0rem;
-          top: 5rem;
+          top: 0rem;
           flex-direction: column;
           width: 15rem;
           height: 100vh;
@@ -559,7 +559,7 @@ footer {
     
      .nav__links #close {
           position: relative;
-          left: 6rem;
+          left: 12rem;
           top: 1rem;
           width: 3.5rem;
           color: var(--color-white);
@@ -573,6 +573,9 @@ footer {
           color: var(--color-blue);
           font-size: var(--font-h3);
           font-weight: 800;
+     }
+     #close {
+          display: block;
      }
 
      .section {
@@ -644,6 +647,9 @@ footer {
      * {
           padding: 0rem;
           margin: 0rem;
+     }
+     #close {
+          display: block;
      }
      
      nav {
