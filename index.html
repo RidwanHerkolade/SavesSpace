@@ -5,13 +5,22 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
+      <!-- ************************************GOOGLE ICONS LINKS************************** -->
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+      <!-- ***********************************ANIMATE.CSS LINKS***************************************** -->
+      <link rel="stylesheet" href="css/animate.css">
+      
+     
+      
+      <!-- ****************** CSS LINKS************** -->
+      
       <link rel="stylesheet" href="/stylesheet/style.css">
     
 </head>
 <body>
      <!-- ********************************NAV BAR BEGINS**************************** -->
-     <nav>
+     <nav class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="500ms">
            <div class="nav__logo">
                <img src="/images/Frame 129.png" alt="">
 
@@ -47,8 +56,8 @@
      <!-- ********************************NAV BAR ENDS**************************** -->
      <!-- *************************************SECTION BEGINS*************************************** -->
      <section class="section">
-           <div id="main__section" class="main__section">
-               <div class="section__content">
+           <div id="main__section" class="main__section wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="500ms" >
+               <div class="section__content wow bounceInLeft"data-wow-duration="2.5s" data-wow-delay="500ms" >
                     <h1>you don't save,<span> we save!</span><br>your money, your terms.</h1>
                     <p>Disrupting the traditional financial sector by offering better financial solutions, while staying true to the human values of trust, honesty, and fairness. Secure your future with our secure investments.</p>
                     <div class="btn__k">
@@ -66,14 +75,14 @@
 
                     </div>
                </div>
-               <div class="img__section">
+               <div class="img__section wow bounceInRight" data-wow-duration="2.5s" data-wow-delay="500ms" >
                     <img src="/images/Group 67.png">
                </div>
 
               
            </div>
            <!-- ******************************SECTION DISPLAY BEGINS************************ -->
-           <div id="section__display" class="section__display" >
+           <div id="section__display" class="section__display  wow bounceInDown" data-wow-duration="2.5s" data-wow-delay="500ms">
                <div class="section__imgs">
                     <img src="/images/57 1.png">
 
@@ -102,8 +111,8 @@
                </div>
            </div>
             <!-- ******************************SECTION DISPLAY ENDS************************ -->
-            <div id="display__sections" class="display__sections">
-                <div class="sections__content">
+            <div id="display__sections" class="display__sections wow fadeInDown">
+                <div class="sections__content wow bounceInLeft" data-wow-duration="2.5s" data-wow-delay="500ms">
                      <h2>SaveSpace, Your all in one <br>savings application.</h2>
                      <ul class="content__list">
                          <li>SaveSpace allows you to track your transactions quick and easily.</li>
@@ -112,7 +121,7 @@
                      </ul>
                      <button >try for free</button>
                 </div>
-                <div class="services">
+                <div class="services wow bounceInRight" data-wow-duration="2.5s" data-wow-delay="500ms">
                     <div class="see">
                          <h3>Recent transactions</h3>
                          <a href="index.html">See all</a>
@@ -185,15 +194,15 @@
        
                 
            </div>
-            <div class="dot">
+            <div class="dot wow fadeInTop"data-wow-duration="2.5s" data-wow-delay="500ms">
                <img src="/images/Group 71.png">
            </div>
 
-           <div class="advert__section" id="advert__section">
-               <div class="advert__img">
+           <div class="advert__section wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="500ms" id="advert__section">
+               <div class="advert__img wow bounceInLeft"data-wow-duration="2.5s" data-wow-delay="500ms">
                     <img src="/images/Group 74.png" alt="">
                </div>
-               <div class="advert__content">
+               <div class="advert__content wow bounceInRight"data-wow-duration="2.5s" data-wow-delay="500ms">
                     <h2>What else can you do with SaveSpace?</h2>
                     <ul class="content__list">
                         <li>Are you scared of participating in ajo, esusu or adashe? SaveSpace allows you participate in thrift worry free.</li>
@@ -204,8 +213,8 @@
 
                </div>
            </div>
-           <div id="motivations__section" class="motivations__section">
-                <div class="motivations__content">
+           <div id="motivations__section" class="motivations__section wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="500ms">
+                <div class="motivations__content wow bounceInLeft" data-wow-duration="2.5s" data-wow-delay="500ms">
                     <h2>Stay Focused on Your <br>Financial Goals</h2>
                     <p>Improve your financial goals with custom goals that keep you going. Save for a home, gadgets, car, education, conquer debt and be on your way to financial indepence.</p>
                     <div class="p__img">
@@ -216,7 +225,7 @@
                          </div>
                     </div>
                 </div>
-                <div class="motivation__img">
+                <div class="motivation__img wow bounceInRight"data-wow-duration="2.5s" data-wow-delay="500ms">
                     <img src="/images/Frame 159.png" alt="">
                 </div>
            </div>
@@ -226,7 +235,7 @@
      </section>
           <!-- *************************************SECTION ENDS*************************************** -->
                     <!-- *************************************FOOTER BEGINS*************************************** -->
-     <footer id="footer">
+     <footer id="footer" class="wow bounceInRight" data-wow-duration="2.5s" data-wow-delay="500ms">
           <div class="footer__grid" >
                <div class="footer__logo">
                     <div class="foooter__logo"><img src="/images/Frame 143.png" alt="" ></div>
@@ -290,8 +299,23 @@
           <div class="footer__text">© 2022 SaveSpace - Made with<img src="/images/Vector (15).png"></div>
      </footer>     
       <!-- *************************************FOOTER ENDS*************************************** -->
-      <script src="/javaScript/index.js"></script>
 
+       <!-- WOW JS -->
+     
+       <script src="js/wow.min.js"></script>
+       <script>
+          
+          new WOW().init();
+          </script>
+      
+      
+      
+     
+      <script src="/javaScript/index.js"></script>
+  
+     
+
+      
      
 </body>
 </html>
